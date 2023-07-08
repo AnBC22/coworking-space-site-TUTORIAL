@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; 
+    color: #252525;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 40px;
+    padding: 10px 15px;
+}
+
+ul {
+    background-color: #252525;
+    color: whitesmoke;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    padding: 25px 15px;
+    margin: 0;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 18px
+}
+
+.icon {
+    width: 25px;
+}
+
+.menu {
+    margin-left: auto;
+}
+
+.working-space {
+    position: relative;
+}
+
+.working-space-img {
+    width: 100%;
+    display: block;
+}
+
+.exclusive {
+    background-color: #CD6858;
+    color: whitesmoke;
+    margin: 0;
+    padding: 10px 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.caption {
+    display: flex;
+    gap: 20px;
+    padding: 0 15px;
+}
+
+.book {
+    background-color: #CD6858;
+    border: none;
+    margin: auto;
+    padding: 6px 12px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.chat-bot {
+    background-color: #DDA15E;
+    width: 40px;
+    padding: 10px;
+    display: flex;
+    border-radius: 50%;
+    position: fixed;
+    right: 6px;
+    bottom: 6px;
+}
+
+.chat-bot-img {
+    width: 20px;
+    margin: auto;
+}
