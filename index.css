@@ -39,6 +39,7 @@ ul {
 
 .working-space {
     position: relative;
+    max-width: 700px;
 }
 
 .working-space-img {
